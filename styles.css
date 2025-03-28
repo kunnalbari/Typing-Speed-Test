@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background:linear-gradient(to bottom,#16BFFD,#CB3066);
+    
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background: blur(100px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    margin:auto ;
+    margin-top:10px;
+    backdrop-filter: blur(100px);
+  
+}
+
+h1 {
+    color: #f8f8f8;
+}
+
+#quote {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #E0E0E0;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+    margin-left: -10px;
+    background:blur(20px);
+    background: rgba(255, 255, 255, 0.2); /* Light translucent white */
+    color: #FFFFFF;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+button:hover {
+    background: #16BFFD; /* Yellow hover effect */
+    color: #3333;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
